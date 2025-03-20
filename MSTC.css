@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    transition: transform 0.2s; /* Add transition for smooth effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+#greetings{
+    text-align: center;
+    padding-left: 14rem;
+    padding-right: 14rem;
+    
+}
+#whyus{
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.cardstuff{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+    margin-top: 3rem;
+}
