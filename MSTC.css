@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #080808;
     padding: 1rem;
     text-align: center;
 }
@@ -23,7 +23,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -88,4 +88,59 @@ h3{
 #contact{
     text-align: center;
     margin-top: 3rem;
+}
+header, footer {
+    background: linear-gradient(to right, red, white, blue);
+    color: black; /* Sets the text color to black */
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    background-image: url('Background.svg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 2rem;
+}
+
+
+.see-through-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Makes the card slightly see-through */
+    padding: 2rem;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 90%;
+    margin: 1rem auto; /* Centers the card */
+    transition: transform 0.3s ease;
+}
+
+.see-through-card:hover {
+    transform: scale(1.05); /* Adds hover effect */
+}
+
+.see-through-card h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.see-through-card p {
+    font-size: 1.2rem;
+    color: #555;
+}
+.big-card h2 {
+    margin: 0;
+    font-size: 3rem; /* Larger text size */
+    color: red; /* Text color red */
+    font-style: italic; /* Slanted text */
+}
+
+.big-card p {
+    margin-top: 1rem;
+    font-size: 1.5rem; /* Slightly larger paragraph text */
+    color: red; /* Text color red */
+    font-style: italic; /* Slanted text */
 }
