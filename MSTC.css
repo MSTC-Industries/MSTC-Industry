@@ -144,3 +144,67 @@ main {
     color: red; /* Text color red */
     font-style: italic; /* Slanted text */
 }
+@media (max-width: 768px) {
+    header, footer {
+        padding: 0.5rem; /* Reduce padding for header and footer */
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Smaller header title */
+    }
+
+    header nav ul li {
+        margin: 0 0.5rem; /* Reduce spacing in navigation menu */
+    }
+
+    .card-container {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+        gap: 1rem;
+    }
+
+    .card, .big-card, .see-through-card {
+        max-width: 100%; /* Cards take full width of the screen */
+        padding: 1rem; /* Adjust padding for readability */
+    }
+
+    .big-card h2, .see-through-card h2 {
+        font-size: 2rem; /* Resize card titles */
+    }
+
+    .big-card p, .see-through-card p {
+        font-size: 1.1rem; /* Resize card text */
+    }
+
+    #spring-sale {
+        height: auto; /* Allow flexibility in section height */
+        padding: 1rem; /* Add padding for smaller screens */
+    }
+
+    main {
+        padding: 1rem; /* Reduce general padding for main content */
+    }
+}
+
+/* Even Smaller Devices (e.g., Phones) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem; /* Further reduce header title size */
+    }
+
+    header nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 0.5rem 0; /* Add spacing between links */
+    }
+
+    .big-card h2, .see-through-card h2 {
+        font-size: 1.5rem; /* Adjust titles for smaller devices */
+    }
+
+    .big-card p, .see-through-card p {
+        font-size: 1rem; /* Adjust text for readability */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Resize footer text */
+    }
+}
